@@ -8,7 +8,7 @@ import (
 )
  
 func main() {
- 
+
     slice := generateSlice(20)
     fmt.Println("\n--- Unsorted --- \n\n", slice)
     selectionsort(slice)
