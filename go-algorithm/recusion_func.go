@@ -1,11 +1,9 @@
 package main
-import (
-	"fmt"
-)
 
-func main(){
-	fmt.Println("Result:",fact(12))
-}
+
+// func main(){
+// 	fmt.Println("Result:",fact(12))
+// }
 
 func fact(n int) int {
     if n == 0 {
