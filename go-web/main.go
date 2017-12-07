@@ -12,6 +12,7 @@ var templates *template.Template
 
 
 func main(){
+	
 	http.Handle("/static/", http.StripPrefix("/static/", http.FileServer(http.Dir("static"))))
 	templates = template.Must(template.ParseGlob("templates/*.html"))
     // http.Handle("/", http.FileServer(http.Dir("/tmp")))
